@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hfit"
+version = "0.1.0"
+description = "HTML File Immersive Translate Tool"
+authors = [{name = "Bryan T"}]
+readme = "README.md"
+requires-python = ">=3.7"
+dependencies = [
+    "beautifulsoup4",
+    "requests",
+]
+
+[project.optional-dependencies]
+argos = ["argos-translate"]
+
+[project.scripts]
+hfit = "hfit.cli:main" 
