@@ -5,13 +5,15 @@
 * **简单模式 (Simple Mode):** 仅翻译纯文本内容，不保留元素内部的标签结构（例如 `<strong>`, `<em>` 等）。
 * **高级模式 (Advanced Mode):** 尝试保留"语义块"内的 HTML 标签结构，在翻译的同时保留加粗、斜体、链接等格式。
 
-模块最初目的是出于兴趣模仿项目 [immersive-translate](https://github.com/immersive-translate/old-immersive-translate) (沉浸式翻译) 写的一个本地工具，也是一个接触AI辅助编程过程中的练手项目，大部分项目代码由AI完成。
+模块最初目的是出于兴趣模仿项目 [immersive-translate](https://github.com/immersive-translate/old-immersive-translate) (沉浸式翻译) 写的一个本地工具，也是一个了解AI辅助编程过程中的练手项目，大部分项目代码由AI完成。
 
 <div align=center><img src="./test/bing_res.png" width="70%"></div>
 
 *p.s. 目前这个时间点的实际感受来说，Cursor这类工具在写比较复杂的项目时对使用者的能力要求还是比较高的。最好能够把思路和模块都划清楚再指导模型来做，直接提需求或者从结果表现上要求修改的话，容易瞎猜乱写。*
 
-  
+
+
+
 
 ## 1. 功能实现思路与模块划分
 
@@ -100,6 +102,8 @@
      7. **返回**: 返回最终处理过的 `soup` 对象的字符串表示。
 
   
+
+
 
 ## 2. Usage
 
