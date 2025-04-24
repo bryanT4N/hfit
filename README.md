@@ -7,11 +7,11 @@
 
 模块最初目的是出于兴趣模仿项目 [immersive-translate](https://github.com/immersive-translate/old-immersive-translate) (沉浸式翻译) 写的一个本地工具，也是一个接触AI辅助编程过程中的练手项目，大部分项目代码由AI完成。
 
-<center><img src="./test/bing_res.png" width="60%"></center>
+<div align=center><img src="./test/bing_res.png" width="70%"></div>
 
 *p.s. 目前这个时间点的实际感受来说，Cursor这类工具在写比较复杂的项目时对使用者的能力要求还是比较高的。最好能够把思路和模块都划清楚再指导模型来做，直接提需求或者从结果表现上要求修改的话，容易瞎猜乱写。*
 
-
+  
 
 ## 1. 功能实现思路与模块划分
 
@@ -99,7 +99,7 @@
         * 更新已处理段落计数器 `processed_count`。
      7. **返回**: 返回最终处理过的 `soup` 对象的字符串表示。
 
-
+  
 
 ## 2. Usage
 
