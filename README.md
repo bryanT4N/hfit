@@ -5,7 +5,7 @@
 * **简单模式 (Simple Mode):** 仅翻译纯文本内容，不保留元素内部的标签结构（例如 `<strong>`, `<em>` 等）。
 * **高级模式 (Advanced Mode):** 尝试保留"语义块"内的 HTML 标签结构，在翻译的同时保留加粗、斜体、链接等格式。
 
-模块最初目的是出于兴趣模仿项目 [immersive-translate](https://github.com/immersive-translate/old-immersive-translate) (沉浸式翻译) 写的一个本地工具，此项目大部分代码由AI完成。
+模块最初目的是出于兴趣模仿项目 [immersive-translate](https://github.com/immersive-translate/old-immersive-translate) (沉浸式翻译) 的翻译效果，此项目大部分代码由AI完成。
 
 <div align=center><img src="./test/bing_res.png" width="70%"></div>
 
